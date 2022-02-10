@@ -9,7 +9,7 @@ export default function TopNavbar () {
         <div className='container'>
           <div id='top-nav-mail'>
             <Image src={Email} alt='email-icon' />
-            <a className='navbar-brand' href='#'>
+            <a className='navbar-brand' href="/">
               contact@dotgfx.com
             </a>
           </div>
