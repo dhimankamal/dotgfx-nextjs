@@ -18,7 +18,7 @@ export default function Posts (props) {
           <p className='card-text post-text'>
            {props.Des}
           </p>
-          <a className='post-btn' href='#'>
+          <a className='post-btn'>
             Learn more
           </a>
         </div>

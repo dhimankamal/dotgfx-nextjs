@@ -22,31 +22,31 @@ export default function Footer () {
           <div className="col-md-3 footer-border">
             <p className="footer-heading">Quick Links</p>
             <ul>
-              <li> <a href="/">Home</a> </li>
-              <li> <a href="/">About Us</a> </li>
-              <li> <a href="/">Contact Us</a> </li>
+              <li> <a >Home</a> </li>
+              <li> <a >About Us</a> </li>
+              <li> <a >Contact Us</a> </li>
             </ul>
           </div>
           <div className="col-md-3 footer-border">
             <p className="footer-heading">Quick Links</p>
             <ul>
-              <li> <a href="/">Home</a> </li>
-              <li> <a href="/">About Us</a> </li>
-              <li> <a href="/">Contact Us</a> </li>
+              <li> <a >Home</a> </li>
+              <li> <a >About Us</a> </li>
+              <li> <a >Contact Us</a> </li>
             </ul>
           </div>
           <div className="col-md-3">
             <p className="footer-heading">Quick Links</p>
             <ul>
-              <li> <a href="/">Home</a> </li>
-              <li> <a href="/">About Us</a> </li>
-              <li> <a href="/">Contact Us</a> </li>
+              <li> <a >Home</a> </li>
+              <li> <a >About Us</a> </li>
+              <li> <a >Contact Us</a> </li>
             </ul>
           </div>
         </div>
       </div>
       <div className="copyright">
-        <a href="/">copyright@2021 dotgfx.com</a>
+        <a >copyright@2021 dotgfx.com</a>
       </div>
     </div>
   </section>
