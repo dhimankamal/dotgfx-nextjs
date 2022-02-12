@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import Logo from '../img/footerlogo.png'
+import FooterLogo from '../img/footerlogo.png'
 
 export default function Footer () {
   return (
@@ -17,7 +17,7 @@ export default function Footer () {
       <div className="footer-link">
         <div className="row text-center">
           <div className="col-md-3 footer-border">
-            <Image src={Logo} alt="footer-logo" />
+            <Image src={FooterLogo} alt="footer-logo" />
           </div>
           <div className="col-md-3 footer-border">
             <p className="footer-heading">Quick Links</p>

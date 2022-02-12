@@ -1,4 +1,4 @@
-import PostImage from '../img/Rectangle 30.png'
+import PostImage from '../img/Rectangle.png'
 import Posts from './Posts'
 import SidePosts from './SidePosts'
 

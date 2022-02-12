@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Icon from '../img/loupe.png'
-import Email from '../img/email (1).png'
+import Email from '../img/email.png'
 
 export default function TopNavbar () {
   return (
