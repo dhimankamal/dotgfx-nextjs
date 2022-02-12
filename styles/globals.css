@@ -40,9 +40,6 @@ body {
 }
 /* custom scroll bar end*/
 
-
-
-
 /* top navbar */
 #top-nav {
   background-color: var(--white);
@@ -108,6 +105,7 @@ body {
   padding: 0.8rem;
   border-radius: 30px;
   transition: 0.3s;
+  opacity: 100%;
 }
 .container,
 .container-fluid,
@@ -365,6 +363,67 @@ body {
 }
 /* footer end */
 
+/* pages */
+.pageheader {
+  background-color: var(--white);
+  text-align: center;
+  border-radius: 30px;
+  padding: 3rem 0;
+}
+.pageheader h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.pagecontent {
+  color: var(--white);
+  margin: 3rem;
+  text-align: center;
+}
+
+/* contact */
+.contact-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contactimage{
+  width: 60%;
+}
+.contact-form img {
+  width: 100%;
+}
+.contact-form input {
+  width: 100%;
+  margin: 0.5rem;
+  height: 50px;
+  border-radius: 30px;
+  padding: 0 1rem;
+  border: none;
+}
+.contact-form h2 {
+  text-align: left;
+}
+.contact-form textarea {
+  width: 100%;
+  margin: 0.5rem;
+
+  border-radius: 20px;
+  padding: 1rem;
+  border: none;
+}
+.contact-form input:focus {
+  outline: none;
+}
+.contact-form button {
+  width: 100%;
+  background-color: var(--red);
+  color: var(--white);
+  height: 50px;
+  border: none;
+  border-radius: 30px;
+  margin-top: 10px;
+}
+
 /* responsive */
 @media screen and (max-width: 1400px) {
   #slider-heading {
@@ -403,7 +462,7 @@ body {
     display: none;
   }
   .mainheader::after {
-    /* background-image: url(./img/header.png); */
+    /* background-image: url(../img/header.png); */
     background-position: bottom;
     background-repeat: no-repeat;
   }
@@ -424,6 +483,14 @@ body {
   .main-posts .card-body .mt-3 {
     margin-top: 0rem !important;
   }
+  /* contact */
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-form h2 {
+    text-align: center;
+  }
 }
 @media screen and (max-width: 764px) {
   .newslater .form button {
@@ -433,12 +500,15 @@ body {
   .newslater h3 {
     font-size: 1.2rem;
   }
-  .newslater{
+  .newslater {
     height: 180px;
   }
   .footer-border {
-    border-right:none;
-    
-
+    border-right: none;
   }
+  .pageheader h1 {
+    font-size: 2rem;
+    
+  }
+ 
 }
