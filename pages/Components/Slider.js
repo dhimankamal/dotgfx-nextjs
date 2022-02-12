@@ -1,3 +1,6 @@
+import Image from 'next/image'
+import AeroImage from '../img/aero.png'
+
 export default function Slider () {
   return (
     <section>
@@ -12,7 +15,7 @@ export default function Slider () {
               used in laying out print, graphic or web designs. The passage is
               attributed to
             </p>
-            <img src='img/aero.png' alt='' />
+            <Image src={AeroImage} alt='image' />
           </div>
           <div className='col-md-9 card-slider'>
             <div className='main-slider'>
